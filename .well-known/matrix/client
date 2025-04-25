@@ -1,5 +1,45 @@
 {
+    "cc.etke.synapse-admin": {
+        "asManagedUsers": [
+            "^@instagrambot:matrix\\.campaignlab\\.uk$",
+            "^@instagram_[a-zA-Z0-9]+:matrix\\.campaignlab\\.uk$",
+            "^@messengerbot:matrix\\.campaignlab\\.uk$",
+            "^@messenger_[a-zA-Z0-9]+:matrix\\.campaignlab\\.uk$",
+            "^@signalbot:matrix\\.campaignlab\\.uk$",
+            "^@signal_[a-zA-Z0-9]+:matrix\\.campaignlab\\.uk$",
+            "^@whatsappbot:matrix\\.campaignlab\\.uk$",
+            "^@whatsapp_[0-9]+:matrix\\.campaignlab\\.uk$"
+        ],
+        "etkeccAdmin": "https://scheduler.ctrl.etke.cc/admin/88b8ed6d363dcd8b6ba427d3d2a840dc938c813ae800df1d279390ca98bc8bd0",
+        "menu": [
+            {
+                "icon": "HelpCenter",
+                "label": "Help / Documentation",
+                "url": "https://etke.cc/help/?utm_source=synapse-admin&utm_medium=menu&utm_campaign=synapse-admin"
+            },
+            {
+                "icon": "SupportAgent",
+                "label": "Contact etke.cc support",
+                "url": "https://etke.cc/contacts/?utm_source=synapse-admin&utm_medium=menu&utm_campaign=synapse-admin"
+            }
+        ],
+        "restrictBaseUrl": [
+            "https://matrix.campaignlab.uk"
+        ]
+    },
+    "im.vector.riot.e2ee": {
+        "default": true
+    },
+    "io.element.e2ee": {
+        "default": true,
+        "force_disable": false,
+        "secure_backup_required": true,
+        "secure_backup_setup_methods": []
+    },
     "m.homeserver": {
         "base_url": "https://matrix.campaignlab.uk"
+    },
+    "m.identity_server": {
+        "base_url": "https://vector.im"
     }
 }

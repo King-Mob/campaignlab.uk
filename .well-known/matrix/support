@@ -1,0 +1,9 @@
+{
+    "contacts": [
+        {
+            "email_address": "hannah@campaignlab.uk",
+            "matrix_id": "@hannah:matrix.campaignlab.uk",
+            "role": "m.role.admin"
+        }
+    ]
+}
